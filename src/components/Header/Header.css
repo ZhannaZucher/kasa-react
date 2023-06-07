@@ -1,0 +1,39 @@
+.header {
+	display: flex;
+	padding: 3rem 0;
+	width: 90vw;
+	height: 68px;
+	max-width: 1240px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav a {
+	color: #FF6060;
+	font-size: 1.4em;
+	font-weight: 500;
+	text-decoration: none;
+	margin-left: 55px;
+}
+
+.header__nav .active {
+	text-decoration-line: underline;
+}
+
+@media screen and (max-width: 768px) {
+.header {
+	padding: 1rem 0;
+}
+
+.header__logo img{
+	width: 145px;
+	height: 47px;
+}
+
+.header__nav a {
+	font-size: 0.75em;
+	margin-left: 10px;
+	text-transform: uppercase;
+}
+}
