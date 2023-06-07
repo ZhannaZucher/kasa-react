@@ -7,7 +7,10 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/*margin: 40px 0 0;*/
+}
+
+.header__nav {
+	margin-bottom: 7px;
 }
 
 .header__nav a {
@@ -25,16 +28,31 @@
 @media screen and (max-width: 768px) {
 .header {
 	margin-top: 0.9rem;
-}
+	}
 
 .header__logo img{
 	width: 145px;
 	height: 47px;
-}
+	}
 
 .header__nav a {
 	font-size: 0.75em;
 	margin-left: 10px;
 	text-transform: uppercase;
+	}
 }
+
+@media screen and (max-width: 375px) {
+	.header {
+		margin-top: 0;
+	}
+	.header__logo img {
+		width: 100px;
+	}
+	
+	.header__nav a {
+		font-size: 0.6em;
+		margin-left: 10px;
+		text-transform: uppercase;
+	}
 }
