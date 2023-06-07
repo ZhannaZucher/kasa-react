@@ -9,7 +9,7 @@
 .error__title {
 	font-size: 260px;
 	font-weight: 700;
-	margin: 120px 0 30px;
+	margin: 160px 0 60px;
 }
 
 .error__subtitle {
@@ -21,7 +21,7 @@
 
 #error-content a {
 	color: #FF6060;
-	margin: 160px 0 180px;
+	margin: 180px 0 160px;
 	font-size: 1.1em;
 	font-weight: 500;
 }
@@ -39,7 +39,7 @@
 @media screen and (max-width: 576px) {
 	.error__title {
 		font-size: 6em;
-		margin: 200px 0 0;
+		margin: 200px 0 10px;
 	}
 	.error__subtitle {
 		width: 70vw;

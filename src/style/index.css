@@ -1,15 +1,8 @@
-@import url('normalize.css');
-
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+@import "./normalize.css";
 
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 1.1em;
-  margin: 0;
 }
 
 #root {
