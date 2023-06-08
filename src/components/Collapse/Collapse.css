@@ -29,7 +29,36 @@
 	border-radius: 0 0 5px 5px ;
 	padding: 36px 20px 20px;
 	color: #FF6060;
-	font-weight: 5400;
+	font-weight: 400;
 	font-size: 1.4em;
 	line-height: 34px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 576px) {
+	.collapsible {
+		width: 90vw;
+		margin-bottom: 20px;
+	}
+
+	.collapsible__btn {
+		height: 30px;
+		padding: 10px;
+	}
+
+	.collapsible__arrow-up, .collapsible__arrow-down {
+		height: 19px;
+		width: 19px;
+	}
+
+	.collapsible__title {
+		font-size: 0.8em;
+	}
+
+	.collapsible__content {
+		font-size: 0.8em;
+		line-height: 17px;
+		padding: 20px 10px;
+	}
 }
