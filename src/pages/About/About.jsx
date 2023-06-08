@@ -1,6 +1,10 @@
+import Banner from "../../components/Banner/Banner"
+import BannerImg from "../../assets/img-about.jpg"
 
 export default function Home() {
 	return (
-		<h1 id="content">About us</h1>
+		<Banner>
+			<img className="banner__img" src={BannerImg} alt="rocks" />
+		</Banner>
 	)
 }

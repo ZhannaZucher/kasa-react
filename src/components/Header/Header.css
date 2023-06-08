@@ -43,10 +43,6 @@
 }
 
 @media screen and (max-width: 375px) {
-	.header {
-		margin-top: 0;
-	}
-	
 	.header__nav a {
 		font-size: 0.6em;
 		margin-left: 10px;
