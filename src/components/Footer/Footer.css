@@ -9,6 +9,8 @@
 	color: #fff;
 	font-size: 1.4em;
 	padding: 40px 0 30px;
+	position: absolute;
+	bottom: 0;
 }
 
 .footer__logo img {
