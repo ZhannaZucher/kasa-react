@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { useState } from "react"
 import Arrow from "../../assets/arrow-down.svg"
 import "./Collapse.css"
@@ -25,4 +26,10 @@ export default function Collapse ({title, content, typeOfContent}) {
 			: null }
 		</div>
 	)
+}
+
+Collapse.propTypes = {
+	title: PropTypes.string,
+	content: PropTypes.string,
+	typeOfContent: PropTypes.string,
 }

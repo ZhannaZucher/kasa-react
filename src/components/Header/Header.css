@@ -44,7 +44,7 @@
 
 @media screen and (max-width: 375px) {
 	.header__nav a {
-		font-size: 0.6em;
+		font-size: 0.7em;
 		margin-left: 10px;
 		text-transform: uppercase;
 	}
