@@ -35,10 +35,13 @@
 
 @media screen and (max-width: 576px) {
 	.banner {
-		height: 111px;
 		margin: 0;
 		border-radius: 10px;
 		justify-content: flex-start;
+	}
+
+	.banner--home {
+		height: 111px;
 	}
 
 	.banner__img {
