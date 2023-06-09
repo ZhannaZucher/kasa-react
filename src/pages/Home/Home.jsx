@@ -3,12 +3,13 @@ import { Link } from "react-router-dom"
 import Banner from "../../components/Banner/Banner"
 import BannerImg from "../../assets/img-home.jpg"
 import Card from "../../components/Card/Card"
+import "./Home.css"
 
 
 
 export default function Home() {
 	return (
-		<main>
+		<main id="main-home">
 			<Banner home="true">
 				<img className="banner__img" src={BannerImg} alt="rocks" />
 				<h1 className="banner__title">Chez vous, partout et ailleurs</h1>
