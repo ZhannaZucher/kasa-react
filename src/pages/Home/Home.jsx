@@ -10,7 +10,7 @@ import "./Home.css"
 export default function Home() {
 	return (
 		<main id="main-home">
-			<Banner home="true">
+			<Banner home={true}>
 				<img className="banner__img" src={BannerImg} alt="rocks" />
 				<h1 className="banner__title">Chez vous, partout et ailleurs</h1>
 			</Banner>
