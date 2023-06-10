@@ -11,5 +11,4 @@ export default function Banner ({home, children}) {
 
 Banner.propTypes = {
 	home: PropTypes.bool,
-	content: PropTypes.element,
 }

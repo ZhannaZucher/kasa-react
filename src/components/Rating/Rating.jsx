@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import ActiveStar from "../../assets/star-active.svg"
 import InactiveStar from "../../assets/star-inactive.svg"
 import "./Rating.css"
@@ -23,4 +24,8 @@ export default function Rating ( {scaleValue} ) {
 		}
 		</div>
 	)
+}
+
+Rating.propTypes = {
+	scaleValue: PropTypes.string,
 }
