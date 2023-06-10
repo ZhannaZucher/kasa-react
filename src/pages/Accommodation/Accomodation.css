@@ -65,3 +65,8 @@
 	object-fit: cover;
 	object-position: center;
 }
+
+.acc-details {
+	display: flex;
+	justify-content: space-between;
+}
