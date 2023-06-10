@@ -1,0 +1,8 @@
+.acc-owner__rating {
+	display: flex;
+	margin-top: 15px;
+}
+
+.acc-owner__rating-item {
+	margin-left: 5px;
+}
