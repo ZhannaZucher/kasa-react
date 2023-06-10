@@ -1,9 +1,10 @@
 import housingData from "../../data/housing.json"
 import { useParams, Navigate } from "react-router-dom"
 import Tag from "../../components/Tag/Tag"
-
-import "./Accomodation.css"
 import Rating from "../../components/Rating/Rating"
+import Collapse from "../../components/Collapse/Collapse"
+import "./Accomodation.css"
+
 
 
 
@@ -42,7 +43,20 @@ export default function Accommodation() {
 						<Rating scaleValue={queryData.rating} />
 					</div>
 				</div>
-				<div className="acc-details">{/* Ajouter les components Collapse ici */}</div>
+				<div className="acc-details">
+					<Collapse 
+						classModifier="collapsible collapsible--accommodation"
+						title="Description"
+						typeOfContent="text"
+						content={queryData.description}
+					/>
+					<Collapse
+						classModifier="collapsible collapsible--accommodation"
+						title="Equipements"
+						typeOfContent="list"
+						content={queryData.equipments}
+					/>
+				</div>
 			</section>
 		</main>
 	) 
