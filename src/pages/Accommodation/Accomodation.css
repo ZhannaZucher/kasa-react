@@ -1,0 +1,66 @@
+#main-accommodation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 90vw;
+	margin: 20px 0 200px;
+}
+
+/*a supprimer après la création du composant*/
+.gallery-mock {
+	height: 415px;
+	width: 1240px;
+	background-color: aqua;
+	font-size: x-large;
+}
+
+.acc {
+	width: 86vw;
+}
+
+.acc-about__row {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.acc-about__column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.acc-about__label {
+	font-size: 2em;
+	color: #FF6060;
+	line-height: 50px;
+	font-weight: 500;
+}
+
+.acc-about__location, .acc-owner__name {
+	font-size: 1.05em;
+	color: #FF6060;
+	line-height: 25px;
+	font-weight: 500;
+}
+.acc-about__tags {
+	margin-top: 20px;
+	display: flex;
+}
+
+.acc-owner__row {
+	display: flex;
+}
+
+.acc-owner__name {
+	align-self: center;
+	margin-right: 10px;
+}
+
+.acc-owner__img img {
+	height: 64px;
+	width: 64px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: center;
+}
