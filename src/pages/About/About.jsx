@@ -33,6 +33,7 @@ export default function Home() {
 					dataAbout.map((element, index) => (
 						<Collapse 
 						key={index}
+						classModifier= "collapsible"
 						title={element.title}
 						typeOfContent="text"
 						content={element.description}
