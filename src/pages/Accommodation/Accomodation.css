@@ -50,6 +50,7 @@
 
 .acc-owner__row {
 	display: flex;
+	justify-content: flex-end;
 }
 
 .acc-owner__name {
