@@ -37,6 +37,9 @@ export default function Collapse ({classModifier, title, content, typeOfContent}
 Collapse.propTypes = {
 	classModifier: PropTypes.string,
 	title: PropTypes.string,
-	content: PropTypes.string,
 	typeOfContent: PropTypes.string,
+	content: PropTypes.oneOfType([
+		PropTypes.string,
+		PropTypes.array,
+	])
 }
