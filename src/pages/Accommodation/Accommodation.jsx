@@ -3,6 +3,7 @@ import { useParams, Navigate } from "react-router-dom"
 import Tag from "../../components/Tag/Tag"
 
 import "./Accomodation.css"
+import Rating from "../../components/Rating/Rating"
 
 
 
@@ -29,13 +30,16 @@ export default function Accommodation() {
 					</div>
 					<div className="acc-owner__column">
 						<div className="acc-owner__row">
-							<h2 className="acc-owner__name">{queryData.host.name}</h2>
+							<h2 className="acc-owner__name">
+								{queryData.host.name.split(" ")[0]}
+								<br/>
+								{queryData.host.name.split(" ")[1]}
+							</h2>
 							<div className="acc-owner__img">
 								<img src={queryData.host.picture} alt={queryData.host.name} />
 							</div>
 						</div>
-
-						<div className="acc-owner__rating">{/* Ajouter le component rating ici */}</div>
+						<Rating scaleValue={queryData.rating} />
 					</div>
 				</div>
 				<div className="acc-details">{/* Ajouter les components Collapse ici */}</div>
