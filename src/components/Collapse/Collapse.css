@@ -34,7 +34,7 @@
 	line-height: 34px;
 }
 
-/*Styles for Accommodation Page*/
+/*Styles for Accommodation Page Use*/
 
 .collapsible--accommodation {
 	width: 40vw;
@@ -74,4 +74,20 @@
 		line-height: 18px;
 		padding: 20px 10px;
 	}
+}
+
+/*Responsive for Accommodation Page Use*/
+@media screen and (max-width: 768px) {
+	.collapsible--accommodation {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.collapsible--accommodation h3,
+	.collapsible--accommodation p,
+	.collapsible--accommodation li {
+			font-size: 13px;
+			line-height: 18px;
+		}
 }

@@ -14,8 +14,10 @@
 
 @media screen and (max-width: 576px) {
 	.tag {
+		padding: 0 25px;
 		height: 18px;
 		border-radius: 5px;
 		font-size: 0.5em;
+		margin-top: 10px;
 		}
 }

@@ -9,7 +9,7 @@
 /*a supprimer après la création du composant*/
 .gallery-mock {
 	height: 415px;
-	width: 1240px;
+	width: 90vw;
 	background-color: aqua;
 	font-size: x-large;
 }
@@ -69,4 +69,51 @@
 .acc-details {
 	display: flex;
 	justify-content: space-between;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 768px) {
+	.acc-about__row {
+		flex-direction: column;
+	}
+	.acc-about__tags {
+		margin-top: 0;
+	}
+	.acc-owner__column {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+	.acc-owner__rating {
+		align-self: center;
+	}
+	.acc-details {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.acc-about__row {
+		margin: 16px 0;
+	}
+	.acc-about__label {
+		font-size: 1.05em;
+		line-height: 25px;
+	}
+	.acc-about__location {
+		font-size: 0.85em;
+	}
+	.acc-about__tags {
+		flex-wrap: wrap;
+	}
+	.acc-owner__name {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.acc-owner__img img {
+		height: 40px;
+		width: 40px;
+	}
 }
