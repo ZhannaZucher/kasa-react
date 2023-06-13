@@ -7,7 +7,8 @@
 }
 
 .acc {
-	width: 86vw;
+	width: 90vw;
+	max-width: 1240px;
 }
 
 .acc-about__row {
