@@ -6,14 +6,6 @@
 	margin: 20px 0 200px;
 }
 
-/*a supprimer après la création du composant*/
-.gallery-mock {
-	height: 415px;
-	width: 90vw;
-	background-color: aqua;
-	font-size: x-large;
-}
-
 .acc {
 	width: 86vw;
 }

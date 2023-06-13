@@ -1,5 +1,6 @@
 import housingData from "../../data/housing.json"
 import { useParams, Navigate } from "react-router-dom"
+import Gallery from "../../components/Gallery/Gallery"
 import Tag from "../../components/Tag/Tag"
 import Rating from "../../components/Rating/Rating"
 import Collapse from "../../components/Collapse/Collapse"
@@ -11,9 +12,7 @@ export default function Accommodation() {
 
   return queryData ? (
     <main id="main-accommodation">
-      <div className="gallery-mock">
-        Gallery {/* Ajouter le component Gallery ici */}
-      </div>
+      <Gallery slides={queryData.pictures} />
       <section className="acc">
         <div className="acc-about__row">
           <div className="acc-about__column">
