@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import { useState } from "react"
-import Arrow from "../../assets/arrow-down.svg"
+import Arrow from "../../assets/arrow.svg"
 import "./Collapse.css"
 
 export default function Collapse({ classModifier, title, children }) {

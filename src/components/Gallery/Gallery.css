@@ -1,0 +1,30 @@
+.gallery {
+	width: 86vw;
+	height: 415px;
+	position: relative;
+}
+
+.gallery__view {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 25px;
+}
+
+.gallery__previous {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	left: 24px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.gallery__next {
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%) rotate(180deg);
+	right: 24px;
+	z-index: 1;
+	cursor: pointer;
+}
