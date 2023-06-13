@@ -11,7 +11,7 @@ export default function Gallery({ slides }) {
     setCurrentIndex(newIndex)
   }
   const goToNext = () => {
-    const isLastSlide = currentIndex === slides.lenght - 1
+    const isLastSlide = currentIndex === slides.length - 1
     const newIndex = isLastSlide ? 0 : currentIndex + 1
     setCurrentIndex(newIndex)
   }
@@ -39,6 +39,9 @@ export default function Gallery({ slides }) {
         alt="Accommodation view"
         className="gallery__view"
       />
+      <p className="gallery__counter">
+        {currentIndex + 1} / {slides.length}
+      </p>
     </div>
   )
 }
