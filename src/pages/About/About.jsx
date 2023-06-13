@@ -38,9 +38,9 @@ export default function Home() {
             key={index}
             classModifier="collapsible"
             title={element.title}
-            typeOfContent="text"
-            content={element.description}
-          />
+          >
+            <p>{element.description}</p>
+          </Collapse>
         ))}
       </section>
     </main>

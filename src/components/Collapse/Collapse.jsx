@@ -3,12 +3,7 @@ import { useState } from "react"
 import Arrow from "../../assets/arrow-down.svg"
 import "./Collapse.css"
 
-export default function Collapse({
-  classModifier,
-  title,
-  content,
-  typeOfContent,
-}) {
+export default function Collapse({ classModifier, title, children }) {
   const [isOpen, toggleCollapse] = useState(false)
 
   return (
@@ -28,19 +23,7 @@ export default function Collapse({
           />
         )}
       </button>
-      {isOpen ? (
-        <div className="collapsible__content">
-          {typeOfContent === "text" ? (
-            <p>{content}</p>
-          ) : (
-            <ul>
-              {content.map((element, index) => (
-                <li key={index}>{element}</li>
-              ))}
-            </ul>
-          )}
-        </div>
-      ) : null}
+      {isOpen ? <div className="collapsible__content">{children}</div> : null}
     </div>
   )
 }
@@ -48,6 +31,5 @@ export default function Collapse({
 Collapse.propTypes = {
   classModifier: PropTypes.string,
   title: PropTypes.string,
-  typeOfContent: PropTypes.string,
-  content: PropTypes.oneOfType([PropTypes.string, PropTypes.array]),
+  children: PropTypes.element,
 }

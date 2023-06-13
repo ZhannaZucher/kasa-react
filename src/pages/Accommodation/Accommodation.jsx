@@ -43,15 +43,19 @@ export default function Accommodation() {
           <Collapse
             classModifier="collapsible collapsible--accommodation"
             title="Description"
-            typeOfContent="text"
-            content={queryData.description}
-          />
+          >
+            <p>{queryData.description}</p>
+          </Collapse>
           <Collapse
             classModifier="collapsible collapsible--accommodation"
             title="Equipements"
-            typeOfContent="list"
-            content={queryData.equipments}
-          />
+          >
+            <ul>
+              {queryData.equipments.map((element, index) => (
+                <li key={index}>{element}</li>
+              ))}
+            </ul>
+          </Collapse>
         </div>
       </section>
     </main>
