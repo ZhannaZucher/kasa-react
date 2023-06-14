@@ -18,7 +18,7 @@ export default function Gallery({ slides }) {
 
   return (
     <div className="gallery">
-      {slides.length === 1 ? null : (
+      {slides.length > 1 && (
         <img
           src={Arrow}
           alt="arrow-left"
@@ -26,7 +26,7 @@ export default function Gallery({ slides }) {
           onClick={goToPrevious}
         />
       )}
-      {slides.length === 1 ? null : (
+      {slides.length > 1 && (
         <img
           src={Arrow}
           alt="arrow-right"
