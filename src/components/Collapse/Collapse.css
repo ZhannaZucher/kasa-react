@@ -1,5 +1,6 @@
 .collapsible {
 	width: 71vw;
+	max-width: 1240px;
 	margin-bottom: 30px;
 }
 
@@ -38,6 +39,7 @@
 
 .collapsible--accommodation {
 	width: 40vw;
+	max-width: 582px;
 }
 
 .collapsible--accommodation h3, 

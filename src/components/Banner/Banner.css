@@ -3,7 +3,7 @@
 	width: 90vw;
 	max-width: 1240px;
 	background: #000;
-	margin: 45px 0 30px;
+	margin: 45px auto 30px;
 	border-radius: 25px;
 	display: flex;
 	justify-content: center;
