@@ -8,7 +8,7 @@ import Error from "./pages/Error/Error"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="kasa-react">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
