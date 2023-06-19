@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kasa-react/static/css/main.3b911dcc.css",
+    "main.js": "/kasa-react/static/js/main.4d5a7772.js",
+    "static/media/img-about.jpg": "/kasa-react/static/media/img-about.be33cd35fc995b84e18a.jpg",
+    "static/media/img-home.jpg": "/kasa-react/static/media/img-home.e181dbc58084d2c509ac.jpg",
+    "static/media/logo.svg": "/kasa-react/static/media/logo.d4dd43b837899e6c0412d197ec87ae0b.svg",
+    "static/media/logo-footer.svg": "/kasa-react/static/media/logo-footer.ee689fd9409d1b5a898b4247819d8a00.svg",
+    "static/media/star-active.svg": "/kasa-react/static/media/star-active.f47de1483d883b69c6210d622f75c05c.svg",
+    "static/media/star-inactive.svg": "/kasa-react/static/media/star-inactive.c864407432a61da616f95e669105d42e.svg",
+    "index.html": "/kasa-react/index.html",
+    "static/media/arrow.svg": "/kasa-react/static/media/arrow.8ac0423e82dde8f465a0d967cba819a5.svg",
+    "static/media/arrow-back.svg": "/kasa-react/static/media/arrow-back.19918a1634b1441a25ae0b50e6b1f85b.svg",
+    "main.3b911dcc.css.map": "/kasa-react/static/css/main.3b911dcc.css.map",
+    "main.4d5a7772.js.map": "/kasa-react/static/js/main.4d5a7772.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b911dcc.css",
+    "static/js/main.4d5a7772.js"
+  ]
+}
