@@ -9,7 +9,6 @@ import "./Accomodation.css"
 export default function Accommodation() {
   const { id } = useParams()
   const queryData = housingData.find((data) => data.id === id)
-
   return queryData ? (
     <main id="main-accommodation">
       <Gallery slides={queryData.pictures} />

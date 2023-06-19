@@ -26,7 +26,7 @@ const dataAbout = [
   },
 ]
 
-export default function Home() {
+export default function About() {
   return (
     <main>
       <Banner>
