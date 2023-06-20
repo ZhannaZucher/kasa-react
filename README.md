@@ -1,4 +1,4 @@
-# Develop an Single Page Application with React and React Router
+# Develop a Single Page Application with React and React Router
 
 Project 11 of the "JS and React app developer" OpenClassRooms' training course
 
