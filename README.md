@@ -1,4 +1,4 @@
-# Develop an Single Page Application with React and React Router
+# Develop a Single Page Application with React and React Router
 
 Project 11 of the "JS and React app developer" OpenClassRooms' training course
 
@@ -19,7 +19,7 @@ Total redesign of the app in order to move later to a full stack in NodeJS for t
 ## Imposed technical constraints
 
 - Responsive
-- Use of reusables React components
+- Reusables React components
 - Routing with React Router
 - Without external React librairies
 
