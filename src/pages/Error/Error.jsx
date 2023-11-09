@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom"
 import "./Error.css"
 
-export default function Header() {
+export default function Error() {
   return (
     <div id="error-content">
       <h1 className="error__title">404</h1>
